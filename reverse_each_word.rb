@@ -7,7 +7,7 @@ def reverse_each_word string
     
    #reverse_string << word.reverse + " "
    
-   word.reverse
+   word.reverse!
    
    
   end
