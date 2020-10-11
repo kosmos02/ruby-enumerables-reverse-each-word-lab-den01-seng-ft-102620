@@ -7,9 +7,9 @@ def reverse_each_word string
     
    #reverse_string << word.reverse + " "
    
-   word.reverse
+   reversed= word.reverse
    
-   string_array.join(' ')
+   reversed.join(' ')
    
   end
  
